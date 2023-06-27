@@ -6,8 +6,9 @@ require (
 	github.com/compression-algorithm-research-lab/go-unzip v0.0.0-20230602073303-1217108c498f
 	github.com/fatih/color v1.15.0
 	github.com/ivanpirog/coloredcobra v1.0.1
-	github.com/scagogogo/maven-crawler v0.0.0-20230619030815-61998034bc24
+	github.com/scagogogo/maven-crawler v0.0.0-20230627145717-417d160dbb16
 	github.com/scagogogo/mvn-sdk v0.0.0-20230620031453-2d99a2094f36
+	github.com/scagogogo/versions v0.0.0-20230616073442-f7ffd332b5e8
 	github.com/spf13/cobra v1.7.0
 	github.com/stretchr/testify v1.8.4
 )
@@ -46,7 +47,6 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/scagogogo/maven-pom-xml-render v0.0.0-20230522042741-86dd7c7d0e1f // indirect
-	github.com/scagogogo/versions v0.0.0-20230616073442-f7ffd332b5e8 // indirect
 	github.com/spf13/afero v1.9.5 // indirect
 	github.com/spf13/cast v1.5.1 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect

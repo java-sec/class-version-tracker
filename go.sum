@@ -101,6 +101,7 @@ github.com/golang-infrastructure/go-project-root-directory v0.0.1 h1:oYMUpcRV1Wp
 github.com/golang-infrastructure/go-project-root-directory v0.0.1/go.mod h1:d3Md9d69xR8kqhGDqI2Du2nlyKJGZssSLGrF5i5bMtQ=
 github.com/golang-infrastructure/go-reflect-utils v0.0.0-20221130143747-965ef2eb09c3 h1:jJ7AdpNdLQudsx1hiXY9iwmauHARV4/UB52KnBh9Se0=
 github.com/golang-infrastructure/go-reflect-utils v0.0.0-20221130143747-965ef2eb09c3/go.mod h1:zqXYxqOBa1mL2ilBK6PuH/Wb/Iego7en6XhiKWdZQHI=
+github.com/golang-infrastructure/go-shuffle v0.0.2 h1:48d6qX3fYDUyTSMnz04lZpa4V6d4X1KZBj+F0FQYMqg=
 github.com/golang-infrastructure/go-stack v0.0.2 h1:1F+F4/s2YlAW9NI8zc4jl90WrqLlXsWfCstBRpPvVl4=
 github.com/golang-infrastructure/go-stack v0.0.2/go.mod h1:m7RdZjsmlvHogbsiovh1uxvxVhwzJdNsrYh1BxdcFrQ=
 github.com/golang-infrastructure/go-tuple v0.0.0-20221215155811-4ed54fe7d579 h1:pQV2/ichhyLoR3aJSNXByuxtdPM2y229Rq5x9DGl5OU=
@@ -223,8 +224,8 @@ github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4/go.mod h1:
 github.com/rogpeppe/go-internal v1.3.0/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFRclV5y23lUDJ4=
 github.com/rogpeppe/go-internal v1.9.0 h1:73kH8U+JUqXU8lRuOHeVHaa/SZPifC7BkcraZVejAe8=
 github.com/russross/blackfriday/v2 v2.1.0/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
-github.com/scagogogo/maven-crawler v0.0.0-20230619030815-61998034bc24 h1:ehS6/YvWTP5yy48p0RuRro5GrKgSo496NBANGrswAnI=
-github.com/scagogogo/maven-crawler v0.0.0-20230619030815-61998034bc24/go.mod h1:r4G8xikfY7drMQ0CibKYnmdrqPDiCAfFVxlNDpcRgUU=
+github.com/scagogogo/maven-crawler v0.0.0-20230627145717-417d160dbb16 h1:01aS887yNvhlxt3EGBh6NjlH91KP9FL+EFtT/UK9wtE=
+github.com/scagogogo/maven-crawler v0.0.0-20230627145717-417d160dbb16/go.mod h1:r4G8xikfY7drMQ0CibKYnmdrqPDiCAfFVxlNDpcRgUU=
 github.com/scagogogo/maven-pom-xml-render v0.0.0-20230522042741-86dd7c7d0e1f h1:KRD5A/eUk8P7AaDl+loj8TrO0NnQdfDJY+gyPXYzarw=
 github.com/scagogogo/maven-pom-xml-render v0.0.0-20230522042741-86dd7c7d0e1f/go.mod h1:hPsCPj6i7WOSpT21xt66RUyDotyU0gkjbcJZe33YWe0=
 github.com/scagogogo/mvn-sdk v0.0.0-20230620031453-2d99a2094f36 h1:pcqB45gzNdDeMb+FK/cQjtv4sS4OTWVAHw8qZn/IPpk=

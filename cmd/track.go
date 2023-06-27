@@ -27,10 +27,10 @@ var (
 
 func init() {
 
-	trackCmd.Flags().StringVarP(&groupId, "groupId", "g", "", "Group ID for track")
-	trackCmd.Flags().StringVarP(&artifactId, "artifactId", "a", "", "Artifact ID for track")
-	trackCmd.Flags().StringVarP(&class, "class", "c", "", "class for track, example: org.springframework.web.servlet.mvc.method.RequestMappingInfo")
-	trackCmd.Flags().StringVarP(&output, "output", "o", "", "result output directory, default current directory")
+	trackCmd.Flags().StringVarP(&groupId, "groupId", "g", "", "Group ID for track, example: org.apache.dubbo")
+	trackCmd.Flags().StringVarP(&artifactId, "artifactId", "a", "", "Artifact ID for track, example: dubbo")
+	trackCmd.Flags().StringVarP(&class, "class", "c", "", "Class for track, example: org.springframework.web.servlet.mvc.method.RequestMappingInfo")
+	trackCmd.Flags().StringVarP(&output, "output", "o", "", "result output directory, default ./output")
 
 	rootCmd.AddCommand(trackCmd)
 }
@@ -40,6 +40,11 @@ var trackCmd = &cobra.Command{
 	Short: "track for class",
 	Long:  ``,
 	RunE: func(cmd *cobra.Command, args []string) error {
+
+		if output == "" {
+			output = "./output"
+		}
+
 		report, err := track.Track(cmd.Context(), groupId, artifactId, class)
 		if err != nil {
 			return err
